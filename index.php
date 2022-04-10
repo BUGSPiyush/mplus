@@ -172,14 +172,14 @@
                 <div class="form-step">
                   <div class="input-group">
                     <div class="input-wrap">
-                      <input type="file" class="input-field" name="profilephoto" id="profilephoto"/>
-                      <label style="color: #000 !important;">Passport size photo</label>
+                      <input class="input-field" type="file" name="fileToUpload" id="fileToUpload">
+                      <label style="color: #000 !important;">Passport size photo (click to upload)</label>
                     </div>
                   </div>
                   <div class="input-group">
                     <div class="input-wrap">
-                      <input type="file" class="input-field" name="profilephoto" id="profilephoto"/>
-                      <label style="color: #000 !important;">Aadhar card</label>
+                      <input type="file" class="input-field" name="adh" id="adh"  style="opacity: 0;"/>
+                      <label style="color: #000 !important;">Aadhar card (click to upload)</label>
                     </div>
                   </div>
 
@@ -218,13 +218,13 @@
           </div>
           <div class="carousel">
             <div class="images-wrapper">
-              <img src="./img/image3.png" class="image img-1 show" alt="" />
+              <img src="./img/img.png" class="image img-1 show" alt="" />
             </div>
 
             <div class="text-slider">
               <div class="text-wrap">
                 <div class="text-group">
-                  <h2>Create your own courses</h2>
+                  <h2>Your Data vault</h2>
                 </div>
               </div>
             </div>
